@@ -1,0 +1,43 @@
+.transaction-content{
+    height: 670px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+#btc-copy{
+    transition: 0.3s all ease !important;
+}
+#btc-copy:hover{
+    background-color: #7c0000;
+}
+#btc-copy:active{
+    background-color: #7c0000 !important;
+}
+#btc-qr{
+    background-image: url(img/btc.png);
+}
+
+
+#eth-copy{
+    transition: 0.3s all ease !important;
+}
+#eth-copy:hover{
+    background-color: #7c0000;
+}
+#eth-copy:active{
+    background-color: #7c0000 !important;
+}
+#eth-qr{
+    background-image: url(img/eth.png);
+}
+
+canvas.participate-qr{
+    border: 0;
+    border-radius: 0;
+}
+
+#qr-button{
+    visibility: hidden;
+
+}
